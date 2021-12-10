@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+body {
+  background-image: url("../wp7479493-township-wallpapers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.wrapper {
+  box-shadow: 0 0 5px aqua;
+  width: 500px;
+  border-radius: 2%;
+  margin: 0 auto;
+  margin-top: .5rem;
+  padding: 0.5rem;
+  background-color: white; }
+  .wrapper .images {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+    text-align: center; }
+    .wrapper .images .first-image {
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 0.7rem; }
+      .wrapper .images .first-image img {
+        border-radius: 2%;
+        width: 90%; }
+  .wrapper .list {
+    box-shadow: 0 0 5px aqua;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+    width: 50%;
+    padding-bottom: 1rem; }
+    .wrapper .list h1 {
+      font-family: 'Readex Pro', sans-serif;
+      color: aqua;
+      text-align: center; }
+    .wrapper .list .pack {
+      width: 100%;
+      margin-top: 0.7rem; }
+      .wrapper .list .pack h2 {
+        font-family: 'Readex Pro', sans-serif;
+        color: aqua;
+        text-align: center; }
+      .wrapper .list .pack p {
+        font-family: 'Readex Pro', sans-serif;
+        color: aqua;
+        text-align: center; }
+
+.form {
+  box-shadow: 0 0 5px aqua;
+  margin: 0 auto;
+  margin-top: 0.7rem;
+  width: 70%;
+  padding: 2%; }
+  .form .label-names {
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 5px; }
+    .form .label-names label {
+      color: aqua;
+      text-align: left;
+      display: block;
+      font-size: 1.3rem;
+      font-family: 'Readex Pro', sans-serif; }
+    .form .label-names input {
+      outline: none;
+      text-align: start;
+      width: 95%;
+      height: 31px; }
+  .form .Button {
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: center; }
+    .form .Button button {
+      box-shadow: 0px 0px 4px aqua;
+      border-radius: 21px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 3px;
+      background-color: aqua;
+      font-size: 1.4rem; }
+    .form .Button button:hover {
+      border: 1px solid aqua;
+      border-radius: 21px;
+      background: transparent;
+      color: aqua; }
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%; }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+  .wrapper {
+    width: 50%; }
+
+  h2 {
+    font-size: 2.7rem; }
+
+  h1 {
+    font-size: 2.7rem; }
+
+  p {
+    font-size: 1.5rem; }
+
+  .form .label-names label {
+    font-size: 1.7rem; } }
+@media (max-width: 768px) {
+  html {
+    font-size: 55%; }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+  .wrapper {
+    width: 50%; }
+
+  h2 {
+    font-size: 13px; }
+
+  h1 {
+    font-size: 18px; }
+
+  p {
+    font-size: 1rem; }
+
+  .form .label-names label {
+    font-size: 1.7rem; }
+
+  .form .label-names input {
+    height: 21px;
+    font-size: 1.5rem; } }
+@media (max-width: 450px) {
+  html {
+    font-size: 55%; }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+  h2 {
+    font-size: 7px; }
+
+  h1 {
+    font-size: 7px; }
+
+  p {
+    font-size: 5px; }
+
+  .form .label-names label {
+    font-size: 11px; }
+
+  .form .label-names input {
+    height: 13px;
+    font-size: 7px; } }
+
+/*# sourceMappingURL=style.css.map */

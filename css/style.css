@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding-top: 0;
+  text-decoration: none;
+  outline: none;
+  border: none; }
+
+body {
+  background-image: url("../26293.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 1rem; }
+  body .Main-Card {
+    box-shadow: 0 0 3px aqua;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding-bottom: 1rem; }
+    body .Main-Card .Card-1 {
+      margin: 0 auto;
+      text-align: center;
+      padding: .5rem; }
+      body .Main-Card .Card-1 img {
+        width: 51%;
+        margin-top: 2%; }
+      body .Main-Card .Card-1 h3 {
+        font-family: 'Readex Pro', sans-serif;
+        color: white; }
+        body .Main-Card .Card-1 h3 span {
+          color: yellow; }
+    body .Main-Card .btn-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 1rem;
+      margin: 0 auto; }
+      body .Main-Card .btn-box a {
+        width: 100%;
+        margin-left: 2%;
+        background-color: aqua;
+        font-size: 20px;
+        padding: 0.4rem 1.6rem;
+        color: white;
+        font-family: 'Readex Pro', sans-serif; }
+      body .Main-Card .btn-box a:hover {
+        color: aqua;
+        border: 1px solid aqua;
+        background: transparent; }
+  @media (max-width: 991px) {
+    body .Main-Card {
+      box-shadow: 0 0 3px aqua;
+      width: 50%;
+      margin: 0 auto;
+      margin-top: 2%;
+      padding-bottom: 1rem; }
+      body .Main-Card .Card-1 {
+        margin: 0 auto;
+        text-align: center;
+        padding: .5rem; }
+        body .Main-Card .Card-1 img {
+          width: 70%;
+          margin-top: 2%; }
+        body .Main-Card .Card-1 h3 {
+          font-family: 'Readex Pro', sans-serif;
+          color: white;
+          font-size: 2rem; }
+          body .Main-Card .Card-1 h3 span {
+            color: yellow; }
+      body .Main-Card .btn-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        margin: 0 auto; }
+        body .Main-Card .btn-box a {
+          width: 100%;
+          margin-left: 2%;
+          background-color: aqua;
+          font-size: 11px;
+          padding: 0.4rem 0.6rem;
+          color: white; }
+        body .Main-Card .btn-box a:hover {
+          color: aqua;
+          border: 1px solid aqua;
+          background: transparent; } }
+  @media (max-width: 768px) {
+    body html {
+      font-size: 55%; }
+    body .Main-Card {
+      box-shadow: 0 0 3px aqua;
+      width: 50%;
+      margin: 0 auto;
+      margin-top: 2%;
+      padding-bottom: 1rem; }
+      body .Main-Card .Card-1 {
+        margin: 0 auto;
+        text-align: center;
+        padding: .5rem; }
+        body .Main-Card .Card-1 img {
+          width: 70%;
+          margin-top: 2%; }
+        body .Main-Card .Card-1 h3 {
+          font-family: 'Readex Pro', sans-serif;
+          color: white;
+          font-size: 1rem; }
+          body .Main-Card .Card-1 h3 span {
+            color: yellow; }
+      body .Main-Card .btn-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        margin: 0 auto; }
+        body .Main-Card .btn-box a {
+          width: 100%;
+          margin-left: 2%;
+          background-color: aqua;
+          font-size: 10px;
+          padding: .4rem 0px;
+          color: white; }
+        body .Main-Card .btn-box a:hover {
+          color: aqua;
+          border: 1px solid aqua;
+          background: transparent; } }
+  @media (max-width: 450px) {
+    body html {
+      font-size: 55%; }
+    body .Main-Card {
+      box-shadow: 0 0 3px aqua;
+      width: 50%;
+      margin: 0 auto;
+      margin-top: 2%;
+      padding-bottom: 1rem; }
+      body .Main-Card .Card-1 {
+        margin: 0 auto;
+        text-align: center;
+        padding: .5rem; }
+        body .Main-Card .Card-1 img {
+          width: 70%;
+          margin-top: 2%; }
+        body .Main-Card .Card-1 h3 {
+          font-family: 'Readex Pro', sans-serif;
+          color: white;
+          font-size: 0.6rem; }
+          body .Main-Card .Card-1 h3 span {
+            color: yellow; }
+      body .Main-Card .btn-box {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        margin: 0 auto; }
+        body .Main-Card .btn-box a {
+          width: 100%;
+          margin-left: 2%;
+          background-color: aqua;
+          font-size: 6px;
+          padding: .4rem 0;
+          color: white; }
+        body .Main-Card .btn-box a:hover {
+          color: aqua;
+          border: 1px solid aqua;
+          background: transparent; } }
+
+/*# sourceMappingURL=style.css.map */
